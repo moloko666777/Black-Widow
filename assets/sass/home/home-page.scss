@@ -37,6 +37,12 @@
       line-height: 2rem;
       text-transform: uppercase;
       color: $black-two;
+      &:hover {
+        color: $black-three;
+        font-family: 'Lato-Bold';
+        text-decoration: none;
+        transition: 3s ease;
+      }
     }
     .active{
       color: $black-three;
