@@ -1,0 +1,43 @@
+.mission-page {
+  &__wrapper  {
+    padding: 10.8rem 0 12.3rem 0;
+  }
+    &__title {
+      h2 {}
+    }
+    &__image {
+      margin-bottom: 10.8rem;
+      img {}
+    }
+    &__text {
+      width: 82rem;
+      margin: 0 auto 3.7rem auto;
+      p {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        text-align: justify;
+        color: $black-three;
+        opacity: .6;
+        margin-bottom: 3rem;
+      }
+      a {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        text-align: justify;
+        color: $black-three;
+        opacity: .6;
+      }
+    }
+    &__images {
+      display: flex;
+      justify-content: space-between;
+      width: 82rem;
+      height: 100%;
+      margin: 0 auto;
+      img {
+        width: 31.6rem;
+        height: 43.4rem;
+        object-fit: cover;
+      }
+    }
+}
